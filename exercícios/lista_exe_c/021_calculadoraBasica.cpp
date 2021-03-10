@@ -4,18 +4,18 @@
 
 int main (){
 	int num1 = 0, num2 = 0;
-	char operacao;
+	char operador;
 	
 	printf("Digite um valor: ");
 	scanf("%d", &num1);
 	
 	printf("Digite a operacao desejada: ");
-	scanf("%s", &operacao);
+	scanf("%s", &operador);
 	
 	printf("Digite o outro valor: ");
 	scanf("%d", &num2);
 	
-	switch (operacao){
+	switch (operador){
 		case '+':
 			printf("O resultado e: %d", num1 + num2);
 			break;
