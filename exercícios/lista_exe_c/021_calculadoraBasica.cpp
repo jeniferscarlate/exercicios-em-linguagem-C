@@ -32,7 +32,7 @@ int main (){
 			printf("O resultado e: %d", num1 % num2);
 			break;	
 		default:
-		printf("Ainda nao conheco essa operacao");				
+			printf("Ainda nao conheco essa operacao");				
 	}
 	
 	
