@@ -17,19 +17,19 @@ int main (){
 	
 	switch (operacao){
 		case '+':
-			printf("\nO resultado e: %d", num1 + num2);
+			printf("O resultado e: %d", num1 + num2);
 			break;
 		case '-':
-			printf("\nO resultado e: %d", num1 - num2);
+			printf("O resultado e: %d", num1 - num2);
 			break;
 		case '*':
-			printf("\nO resultado e: %d", num1 * num2);
+			printf("O resultado e: %d", num1 * num2);
 			break;
 		case '/':
-			printf("\nO resultado e: %d", num1 / num2);
+			printf("O resultado e: %d", num1 / num2);
 			break;
 		case '%':
-			printf("\nO resultado e: %d", num1 % num2);
+			printf("O resultado e: %d", num1 % num2);
 			break;	
 		default:
 		printf("Ainda nao conheco essa operacao");				
