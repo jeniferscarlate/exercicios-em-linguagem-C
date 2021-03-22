@@ -7,6 +7,7 @@ int main (){
 	char sexo[5];
 	float valorCompras = 0.0, precoFinal = 0.0;
 	
+	
 	//entradas:
 	printf("Digite seu primeiro nome: ");
 	scanf("%s", &nome);
