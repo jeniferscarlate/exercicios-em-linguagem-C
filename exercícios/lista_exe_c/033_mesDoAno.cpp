@@ -10,7 +10,7 @@ int main (){
 	int mes = 0;
 	
 	//Recebendo a entrada:
-	printf("Digite um valor entre 1 e 12: ");
+	printf("Digite um valor entre 1 e 12 para saber o mes: ");
 	scanf("%d", &mes);
 	
 	//Processamento e saida:
