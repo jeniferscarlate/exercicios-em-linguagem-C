@@ -27,8 +27,8 @@ int main (){
 	scanf("%f", &altura);
 	
 	//Processamento:
-	imc = (massa/(altura*altura));
-	
+	imc = massa/(altura*altura);
+	printf("%f", imc);
 	if(imc < 18.5){
 		printf("Magreza.");
 	}
